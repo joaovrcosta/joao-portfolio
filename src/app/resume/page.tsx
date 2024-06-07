@@ -14,7 +14,7 @@ import {
 
 const about = {
   title: 'About me',
-  description: 'Lore',
+  description: 'Informações importantes sobre mim',
   info: [
     {
       fieldName: 'Name',
@@ -62,6 +62,16 @@ const experience = {
     },
     {
       company: 'Mercado Livre',
+      position: 'Full Stack Developer',
+      duration: '2022- Present',
+    },
+    {
+      company: 'Fatec',
+      position: 'Full Stack Engineer',
+      duration: 'Abr/2022- Mai/2023',
+    },
+    {
+      company: 'Freelancer',
       position: 'Full Stack Developer',
       duration: '2022- Present',
     },

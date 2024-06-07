@@ -26,7 +26,9 @@ export default function RootLayout({
       <body className={jetbrainsMono.variable}>
         <Header />
         <StairTransaction />
-        <PageTransation>{children}</PageTransation>
+        <PageTransation>
+          <div className="mt-36">{children}</div>
+        </PageTransation>
       </body>
     </html>
   )
